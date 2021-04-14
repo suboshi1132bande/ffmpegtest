@@ -1,0 +1,51 @@
+{
+  "stringTable": {
+    "0": "/Users/subo/job/domeworkspesc/FfmpegTest/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android21 --gcc-toolchain=/Users/subo/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/subo/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_lib_EXPORTS -I/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/cpp/ffmpeg/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/cpp/CMakeLists.txt",
+    "/Users/subo/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/subo/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/subo/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/subo/job/domeworkspesc/FfmpegTest/app/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/subo/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/subo/job/domeworkspesc/FfmpegTest/app/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-x86": {
+      "buildCommand": "/Users/subo/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/subo/job/domeworkspesc/FfmpegTest/app/.cxx/cmake/debug/x86\" native-lib",
+      "buildType": "debug",
+      "toolchain": "2507580706",
+      "abi": "x86",
+      "artifactName": "native-lib",
+      "files": [
+        {
+          "src": "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/cpp/native-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/subo/job/domeworkspesc/FfmpegTest/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so",
+      "runtimeFiles": [
+        "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/jniLibs/x86/libavutil.so",
+        "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/jniLibs/x86/libswresample.so",
+        "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/jniLibs/x86/libavcodec.so",
+        "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/jniLibs/x86/libavfilter.so",
+        "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/jniLibs/x86/libswscale.so",
+        "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/jniLibs/x86/libavformat.so",
+        "/Users/subo/job/domeworkspesc/FfmpegTest/app/src/main/jniLibs/x86/libavdevice.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "2507580706": {
+      "cppCompilerExecutable": "/Users/subo/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
